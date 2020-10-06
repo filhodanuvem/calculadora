@@ -1,15 +1,18 @@
 body {
     background: #181818;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
 }
 
 #calculadora {
-    width: 213px;
-    margin: 200px auto;
     background: #2F2F2F;
     border: 3px solid #000;
     border-radius: 15px;
-    padding: 0px 15px 15px 15px;    
+    padding: 2vw 2vw 2vw 2vw;   
+    height: 68vh; 
 }
 
 .logo {
@@ -44,7 +47,7 @@ button {
     border-radius: 5px;
     border: none;
     background: #fff;
-    margin-top: 3px;
+    margin-top: 0.2rem;
     font-size: 3rem;
     font-weight: bold;
     color: #11AD42;
