@@ -5,8 +5,7 @@ var acaoEscolhida; // a açao escolhida
 function atualizaTela(valor) {
     if (valor === undefined || NaN){
         valorTela = "";
-    }
-    else{
+    } else{
         if (isNaN(valor) == true){
             valorTela = "";
         }
@@ -35,20 +34,16 @@ function botaoAcaoClick (e) {
 function rodarAcao (acao) {
     if (acao === "=") {
         var resultado;
+        
         if (acaoEscolhida === "+") {
             resultado = parseInt(valorAntigoTela) + parseInt(valorTela);
         }
-
         if (acaoEscolhida === "-") {
             resultado = parseInt(valorAntigoTela) - parseInt(valorTela);
         }
-
-
         if (acaoEscolhida === "/") {
             resultado = parseInt(valorAntigoTela) / parseInt(valorTela);
         }
-
-
         if (acaoEscolhida === "x") {
             resultado = parseInt(valorAntigoTela) * parseInt(valorTela);
         }
