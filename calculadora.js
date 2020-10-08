@@ -8,8 +8,7 @@ function atualizaTela(valor) {
     } else{
         if (isNaN(valor) == true){
             valorTela = "";
-        }
-        else{
+        } else{
             valorTela = valor;
         }
     }
