@@ -9,7 +9,7 @@ describe("Calculadora should do the math", () => {
             cy.get('[value="'+number+'"]').click()
         });
         cy.get('[value="="]').click();
-        cy.get('#tela').contains(expectedResult);
+        cy.get('#tel').contains(expectedResult);
     }
 
     it("should sum correctly", () => {
